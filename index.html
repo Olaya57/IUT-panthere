@@ -1,97 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="SEO, agence design, web design, site internet">
-    <meta name="description" content="Agence La Panthère - Création et design de sites internet.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Agence SEO - Panthère</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | La Panthère</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Principal conteneur -->
-<div class="page-container">
-    <!-- Bloc Présentation -->
-    <div class="bloc bgc-dark-slate-blue" id="bloc-1-hero">
-        <div class="container bloc-lg text-center">
-            <img src="img/logo.png" width="100" alt="Agence La Panthère logo" />
-            <h1 class="hero-bloc-text tc-white">Agence La Panthère</h1>
-            <a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a>
-        </div>
-    </div>
-    
-    <!-- Bloc Services -->
-    <div class="bloc bgc-white" id="bloc-2-services">
-        <div class="container bloc-md">
-            <div class="row">
-                <div class="col-sm-4 text-center">
-                    <span class="et-icon-browser icon-lg"></span>
-                    <h3>Web design</h3>
-                    <p>Nous réalisons un design unique et moderne pour mettre en valeur votre marque.</p>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <span class="et-icon-presentation icon-lg"></span>
-                    <h3>Stratégie</h3>
-                    <p>Nous analysons vos objectifs pour proposer la meilleure solution de design.</p>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <span class="et-icon-edit icon-lg"></span>
-                    <h3>Illustrations</h3>
-                    <p>Nos graphistes ajoutent une touche d’élégance pour sublimer votre site.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bloc Mission -->
-    <div class="bloc bgc-atomic-tangerine" id="bloc-3-what-i-do">
-        <div class="container bloc-lg text-center">
-            <h2>Développons ensemble votre entreprise</h2>
-            <p>Contactez-nous pour concevoir un site structuré, visible et attractif.</p>
-            <a href="page2.html" class="ltc-white bold-link">Contactez notre équipe</a>
-        </div>
-    </div>
-    
-    <!-- Bloc Portfolio -->
-    <div class="bloc bgc-white" id="bloc-4-portfolio">
-        <div class="container bloc-lg">
-            <h3 class="text-center">Notre Portfolio</h3>
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="img/1.jpg" alt="Projet pour un journal local" class="img-responsive portfolio-thumb" />
-                    <h4 class="text-center">Refonte pour un journal local</h4>
-                </div>
-                <div class="col-sm-6">
-                    <img src="img/2.jpg" alt="Projet pour photographes" class="img-responsive portfolio-thumb" />
-                    <h4 class="text-center">Création pour photographes</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bloc Contact -->
-    <div class="bloc bgc-dark-slate-blue" id="bloc-5-cta">
-        <div class="container bloc-lg text-center">
-            <h2 class="tc-white">Prêt pour un nouveau projet ?</h2>
-            <a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg">Contact</a>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="bloc bgc-atomic-tangerine" id="footer">
+    <!-- En-tête avec logo centré -->
+    <header>
         <div class="container text-center">
-            <p>Agence La Panthère - Agence web basée à Lyon</p>
-            <div class="social">
-                <a href="index.html" class="fa fa-twitter icon-md"></a>
-                <a href="index.html" class="fa fa-facebook icon-md"></a>
-                <a href="index.html" class="fa fa-instagram icon-md"></a>
+            <a href="#">
+                <img src="img/logo.png" alt="Logo La Panthère" class="site-logo">
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation principale -->
+    <nav class="nav-center">
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section principale : Texte de présentation et image -->
+    <section class="main-section">
+        <div class="presentation-container">
+            <div class="presentation-text">
+                <h2>Agence Web Créative et Innovante à Lyon</h2>
+                <p>
+                    La Panthère est une agence de web design spécialisée dans la création de sites internet modernes et personnalisés, conçus pour maximiser votre visibilité en ligne. Implantés au cœur de Lyon, nous aidons les entreprises ambitieuses à se démarquer grâce à des solutions digitales efficaces et créatives.
+                </p>
+                <p style="margin-top: 20px;">
+                    De l’identité visuelle à la refonte de site, notre équipe s’engage à donner vie à votre projet avec un design captivant et une expérience utilisateur optimisée. Contactez-nous pour transformer vos idées en réalité digitale !
+                </p>
+                <a href="contact.html" class="cta-button">Nous contacter</a>
+            </div>
+            <div class="image-container">
+                <img src="img/Accueil.jpg" alt="Image de présentation" class="presentation-img">
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
+    <!-- Section de citation -->
+    <section class="quote-section">
+        <blockquote>
+            <p>"L'agence La Panthère a su capter l'essence de notre entreprise et la traduire en un site web moderne et captivant. Nous avons doublé nos ventes en ligne grâce à leur expertise."</p>
+            <footer>— Maxime Guibard, PDG de À vos fourchettes</footer>
+        </blockquote>
+    </section>
+
+    <!-- Section des services -->
+    <section class="services-section">
+        <h3 class="section-title">Nos Services</h3>
+        <div class="services-wrapper">
+            <div class="service-item">
+                <h4>Design Web Sur Mesure</h4>
+                <p>Création de sites uniques et performants pour refléter l’image de votre marque et captiver votre audience.</p>
+            </div>
+            <div class="service-item">
+                <h4>Stratégie Digitale</h4>
+                <p>Élaboration de stratégies digitales adaptées pour accroître votre visibilité et atteindre vos objectifs marketing.</p>
+            </div>
+            <div class="service-item">
+                <h4>SEO et Référencement Naturel</h4>
+                <p>Optimisation de votre site pour les moteurs de recherche afin d’augmenter votre trafic et votre positionnement en ligne.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des réalisations -->
+    <section class="realizations-section">
+        <div class="realization-container">
+            <div class="realization-text">
+                <h3>Refonte du site d’un Journal Local</h3>
+                <p>Refonte complète avec une nouvelle identité visuelle et une meilleure navigation pour une expérience utilisateur enrichie.</p>
+            </div>
+            <img src="img/1.jpg" alt="Refonte site web journal" class="realization-img">
+        </div>
+
+        <div class="realization-container">
+            <div class="realization-text">
+                <h3>Site Web pour Photographe</h3>
+                <p>Conception d'une plateforme visuelle et élégante permettant aux photographes de présenter leurs œuvres en ligne.</p>
+            </div>
+            <img src="img/2.jpg" alt="Création site web pour photographe" class="realization-img">
+        </div>
+
+        <div class="realization-container">
+            <div class="realization-text">
+                <h3>Blog de Voyage Innovant</h3>
+                <p>Développement d'un blog pour un voyageur passionné, mettant en avant ses récits et vidéos dans un design immersif.</p>
+            </div>
+            <img src="img/3.bmp" alt="Création site web pour voyageur" class="realization-img">
+        </div>
+
+        <div class="realization-container">
+            <div class="realization-text">
+                <h3>Site Web pour Agence de Mariage</h3>
+                <p>Création d’un site pour une agence de mariage, avec une présentation soignée des services pour attirer les futurs mariés.</p>
+            </div>
+            <img src="img/4.bmp" alt="Création site web pour agence de mariage" class="realization-img">
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contactez-nous</h4>
+                <p>Email : <a href="mailto:contact@panthere-lyon.com">contact@panthere-lyon.com</a></p>
+                <p>Adresse : 78 Avenue des Frères Lumière, 69008 Lyon</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="https://twitter.com" target="_blank"><img src="img/twitter.jpeg" alt="Twitter"></a>
+                    <a href="https://facebook.com" target="_blank"><img src="img/Facebook_logo_(square).png" alt="Facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="img/instagram.jpeg" alt="Instagram"></a>
+                    <a href="https://dribbble.com" target="_blank"><img src="img/dribble.png" alt="Dribbble"></a>
+                </div>
+            </div>
+
+            <!-- Partenaires plus pertinents pour une agence web -->
+            <div class="footer-section">
+                <h4>Partenaires</h4>
+                <p><a href="https://www.adobe.com" target="_blank">Adobe</a></p>
+                <p><a href="https://www.wordpress.org" target="_blank">WordPress</a></p>
+                <p><a href="https://www.hubspot.com" target="_blank">HubSpot</a></p>
+                <p><a href="https://www.google.com/analytics" target="_blank">Google Analytics</a></p>
+            </div>
+
+            <!-- Annuaires mis à jour pour un contexte digital -->
+            <div class="footer-section">
+                <h4>Annuaires</h4>
+                <p><a href="https://www.behance.net" target="_blank">Behance</a></p>
+                <p><a href="https://www.dribbble.com" target="_blank">Dribbble</a></p>
+                <p><a href="https://www.awwwards.com" target="_blank">Awwwards</a></p>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <p>&copy; 2024 Agence La Panthère. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
