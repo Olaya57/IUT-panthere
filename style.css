@@ -438,3 +438,24 @@ footer a:hover {
 body {
     font-family: 'Roboto', sans-serif;
 }
+.realization-title {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.realization-title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+}
+.cta-section {
+    text-align: center; /* Centre le bouton horizontalement */
+    margin-top: 40px; /* Ajuste la distance par rapport au dernier bloc */
+    margin-bottom: 80px; /* Éloigne davantage le bouton du pied de page */
+}
